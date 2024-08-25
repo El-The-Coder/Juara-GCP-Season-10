@@ -412,10 +412,12 @@ You can now deploy the app to Cloud Run on Google Cloud.
    To get the URL for the Cloud Run service inventory page, in Cloud Shell, run the following command:
 
    ```
-   export SVC_URL=$(gcloud run services describe hello-world \
-  --project set at lab start \
-  --region set at lab start \
-  --platform managed \
-  --format='value(status.url)')
-   echo ${SVC_URL}/inventory
+   
+      export SVC_URL=$(gcloud run services describe hello-world \
+     --project set at lab start \
+     --region set at lab start \
+     --platform managed \
+     --format='value(status.url)')
+      echo ${SVC_URL}/inventory
+   
    ```
