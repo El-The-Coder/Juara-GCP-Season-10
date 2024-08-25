@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/d443f961-c4b1-40b0-bbc0-fab91c034dbd)
+
+
 ### Objectives
 In this lab, you learn how to perform the following tasks:
 
