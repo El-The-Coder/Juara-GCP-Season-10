@@ -54,7 +54,7 @@ Before creating a workstation, you must create a workstation configuration in Cl
 
 2. Specify the following values:
    
-  ![image](https://github.com/user-attachments/assets/e5088a2b-8dab-4f5f-903a-e51edb3a2b71)
+   ![image](https://github.com/user-attachments/assets/e5088a2b-8dab-4f5f-903a-e51edb3a2b71)
 
 3. Click Create.
 
@@ -62,7 +62,35 @@ Before creating a workstation, you must create a workstation configuration in Cl
 
 5. Check the Status of the configuration being created. If the status of the configuration is Reconciling or Updating, periodically refresh and wait until the status becomes Ready before moving to the next step.
 
-6. 
+### Create a workstation
+
+1. In the Navigation pane, click Workstations, and then click Create Workstation.
+
+2. Specify the following values:
+   
+   ![image](https://github.com/user-attachments/assets/a2f7cf20-8ae0-4cf5-8744-ff2c80f6fa9b)
+
+3. Click Create.
+   After the workstation is created, it is listed under My workstations with a status of Stopped.
+
+4. To start the workstation, click Start.
+   As the workstation starts up, the status changes to Starting. Wait for the status to change to Running which indicates that it is ready to be used. It might take several minutes for the workstation to fully start up.
+
+### Launch the IDE
+
+To function properly, some extensions need third-party cookies to be enabled in your browser.
+
+1. To enable third-party cookies in Chrome, in the Chrome menu, click Settings.
+2. In the search bar, type Third-party cookies.
+3. Click the Third-party cookies setting, and select Allow third-party cookies
+   
+   To launch the Code OSS IDE on the workstation, from the Workstations page in the Google Cloud console, click Launch.
+   The IDE opens in a separate browser tab.
+
+   ![image](https://github.com/user-attachments/assets/8f06e72b-d704-4249-840f-0c0b20832df0)
+
+   
+
 
 
 
